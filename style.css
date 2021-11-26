@@ -19,7 +19,7 @@ margin: 0px;
     font-size: 24px;  
 }
 
-ul {
+.header-list {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -54,6 +54,8 @@ a {
     justify-content: center;
     align-items: center;
     background-color: gray;
+    width: 500px;
+    margin: 50px 20px 50px 80px;
 
 }
 
@@ -76,3 +78,104 @@ a {
    padding: 8px 20px;
 }
 
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;       
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: solid #3882f6;;
+    flex-grow: 0;
+    border-radius: 8%;
+    
+   
+    
+}
+
+.info-text {
+    color: #1f2937;
+    /* burada max-width yapmazsam kutu altındaki yazılar uzun oluyor
+    ve böylece kutuları istediğim gibi dağıtamıyorum. 
+    ben burayı flex-shrink-grow-basis vs ile çözemez miyim? */
+    max-width: 100px;
+    text-align: center;
+    padding: 5px 0 0 0;
+    
+}
+
+
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 80px;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 50px;
+
+}
+
+.container-2{
+    display: flex;
+    /* justify-content: space-between;
+    background-color: #3882f6;
+    padding: 36px;
+    border-radius: 3%; */
+    justify-content: center;
+    margin-bottom: 50px;
+      
+    
+}
+
+.left-cont-2 {
+    background-color: #3882f6;
+    padding: 36px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: #f9faf8;
+}
+    
+    
+.right-cont-2{
+    background-color: #3882f6;
+    padding: 36px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.call-text {
+    font-weight: bolder;
+    color: #f9faf8;
+    font-size: 20px;
+}
+
+.signup-2 {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: solid white 1px;
+    padding: 4px 28px;
+    color: #e5e7eb;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 30px;
+    color: #e5e7eb;
+}
