@@ -1,6 +1,78 @@
+body {
+  
+min-height: 100vh;
+margin: 0px;
+}
+
 .header-top {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    font-size: 18px;
+    background-color: #1f2937;
     
+}
+
+.header-logo {
+    padding: 16px 0px 16px 100px;
+    color: #f9faf8;
+    font-size: 24px;  
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 16px;
+    color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.header {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row
+   
 
 }
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: flex-start;
+    padding: 50px 20px 50px 80px;  
+    gap: 10px;
+
+}
+
+.header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-sec-text {
+    color: #e5e7eb;
+}
+
+.signup {
+   background-color: #3882f6;
+   border-radius: 18px;
+   border: none;
+   color: white;
+   font-weight:700;
+   padding: 8px 20px;
+}
+
